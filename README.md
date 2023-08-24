@@ -6,5 +6,6 @@
 ## Installation
 
 ```
+cd ComfyUI/custom_nodes
 git clone https://github.com/kenneth2001/comfyui_controlnet_preprocessors
 ```
