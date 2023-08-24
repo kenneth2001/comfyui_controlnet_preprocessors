@@ -56,7 +56,7 @@ class Canny_Detector_Preprocessor:
         return (processed_image_tensor,)
 
 
-class Depth_detetor_Preprocessor:
+class Depth_Detector_Preprocessor:
     @classmethod
     def INPUT_TYPES(s):
         return {"required": {"image": ("IMAGE",),
@@ -325,7 +325,7 @@ class Shuffle_Detector_Preprocessor:
 
 NODE_CLASS_MAPPINGS = {
     "Canny_Detector_Preprocessor": Canny_Detector_Preprocessor,
-    "Depth_detetor_Preprocessor": Depth_detetor_Preprocessor,
+    "Depth_Detector_Preprocessor": Depth_Detector_Preprocessor,
     "Normal_Bae_Detector_Preprocessor": Normal_Bae_Detector_Preprocessor,
     "Openpose_Detector_Preprocessor": Openpose_Detector_Preprocessor,
     "MLSD_Detector_Preprocessor": MLSD_Detector_Preprocessor,
